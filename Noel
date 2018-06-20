@@ -1,0 +1,4 @@
+pip install speedtest-cli
+mv check_speedtest-cli.sh /usr/lib/centreon/plugins
+cd /usr/lib/centreon/plugins/
+chmod +x check_speedtest-cli.sh
